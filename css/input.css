@@ -15,7 +15,9 @@ input.form-control{
     width: 2.86rem;
 }
 input::placeholder{
-    font-size: 0.874rem !important;
+    font-size: 0.875rem !important;
+    padding-left: 7px;
+    color: rgb(168, 168, 168) !important;
 }
 .btn:focus{
     border: none !important;
