@@ -1,0 +1,26 @@
+input.form-control:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 0.125rem !important;
+}
+input.form-control{
+    border: none !important;
+    border-radius: 0.125rem !important;
+}
+.btn{
+    border-radius: 0 !important;
+    background-color: var(--orange-light) !important;
+    border: none !important;
+    width: 2.86rem;
+}
+input::placeholder{
+    font-size: 0.874rem !important;
+}
+.btn:focus{
+    border: none !important;
+}
+.btn:hover{
+    border: none !important;
+}
+
