@@ -1,8 +1,3 @@
-// Show modal after 1 second
-setTimeout(() => {
-  const loginModal = new bootstrap.Modal(document.getElementById("loginModal"));
-  loginModal.show();
-}, 1000);
 
 document.addEventListener('DOMContentLoaded', function() {
   // Get the login link and add click event listener
