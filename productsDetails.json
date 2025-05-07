@@ -1,0 +1,802 @@
+[
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 1",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.6,
+    "reviews": 309,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 1
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 2",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.3,
+    "reviews": 154,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 2
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 3",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.4,
+    "reviews": 311,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 3
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 4",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.1,
+    "reviews": 156,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 4
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 5",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.7,
+    "reviews": 313,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 5
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 6",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.4,
+    "reviews": 158,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 6
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 7",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.5,
+    "reviews": 315,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 7
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 8",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.2,
+    "reviews": 160,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 8
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 9",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.3,
+    "reviews": 317,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 9
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 10",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.5,
+    "reviews": 162,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 10
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 11",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.6,
+    "reviews": 319,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 11
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 12",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.3,
+    "reviews": 164,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 12
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 13",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.4,
+    "reviews": 321,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 13
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 14",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.1,
+    "reviews": 166,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 14
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 15",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.7,
+    "reviews": 323,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 15
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 16",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.4,
+    "reviews": 168,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 16
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 17",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.5,
+    "reviews": 325,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 17
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 18",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.2,
+    "reviews": 170,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 18
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 19",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.3,
+    "reviews": 327,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 19
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 20",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.5,
+    "reviews": 172,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 20
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 21",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.6,
+    "reviews": 329,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 21
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 22",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.3,
+    "reviews": 174,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 22
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 23",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.4,
+    "reviews": 331,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 23
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 24",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.1,
+    "reviews": 176,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 24
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 25",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.7,
+    "reviews": 333,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 25
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 26",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.4,
+    "reviews": 178,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 26
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 27",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.5,
+    "reviews": 335,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 27
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 28",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.2,
+    "reviews": 180,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 28
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 29",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.3,
+    "reviews": 337,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 29
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 30",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.5,
+    "reviews": 182,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 30
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 31",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.6,
+    "reviews": 339,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 31
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 32",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.3,
+    "reviews": 184,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 32
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 33",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.4,
+    "reviews": 341,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 33
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 34",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.1,
+    "reviews": 186,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 34
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 35",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.7,
+    "reviews": 343,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 35
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 36",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.4,
+    "reviews": 188,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 36
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 37",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.5,
+    "reviews": 345,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 37
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 38",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.2,
+    "reviews": 190,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 38
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 39",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.3,
+    "reviews": 347,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 39
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 40",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.5,
+    "reviews": 192,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 40
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 41",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.6,
+    "reviews": 349,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 41
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 42",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.3,
+    "reviews": 194,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 42
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 43",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.4,
+    "reviews": 351,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 43
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 44",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.1,
+    "reviews": 196,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 44
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 45",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.7,
+    "reviews": 353,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 45
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 46",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.4,
+    "reviews": 198,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 46
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 47",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.5,
+    "reviews": 355,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 47
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 48",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.2,
+    "reviews": 200,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 48
+  },
+  {
+    "title": "Smartphone with 64MP Camera and AMOLED Display - Variant 49",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png_.webp",
+    "current_price": "$399.00",
+    "original_price": "$499.00",
+    "discount": "20%",
+    "description": "Sleek smartphone with 64MP AI camera, vivid AMOLED display, long-lasting battery, and fast performance.",
+    "stars": 4.3,
+    "reviews": 357,
+    "comments": [
+      "Camera quality is outstanding, even in low light.",
+      "Display is bright and smooth. Highly recommend.",
+      "Fast charging and overall solid performance."
+    ],
+    "id": 49
+  },
+  {
+    "title": "Wireless Bluetooth Earbuds with Noise Cancellation - Variant 50",
+    "image": "https://img.drz.lazcdn.com/static/pk/p/e6e416416840947b6e17b6edf8fb8ab8.jpg_400x400q80.jpg_.webp",
+    "current_price": "$59.99",
+    "original_price": "$89.99",
+    "discount": "33%",
+    "description": "High-quality wireless earbuds with active noise cancellation, ergonomic fit, and up to 8 hours of playback.",
+    "stars": 4.5,
+    "reviews": 202,
+    "comments": [
+      "Amazing sound quality and very comfortable!",
+      "Battery life is impressive. Great value for money.",
+      "Noise cancellation works decently for the price."
+    ],
+    "id": 50
+  }
+]

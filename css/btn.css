@@ -1,3 +1,71 @@
-.btn.primary-light{
-    border-radius: 0 !important;
+.btn.primary-light {
+  border-radius: 0 !important;
+}
+
+.carousel-indicators {
+  position: absolute !important;
+  bottom: 15px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 2 !important;
+}
+
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border: none !important;
+  margin: 0 5px !important;
+  padding: 0 !important;
+  transition: all 0.3s ease !important;
+}
+
+.carousel-indicators button.active {
+  background-color: #fff !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px; /* Button width */
+  height: 30px; /* Button height */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  border-radius: 50%; /* Round buttons */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+  opacity: 0.8; /* Default opacity */
+  transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  width: 25px;
+  height: 25px;
+}
+.pc-download-module .module-qr .content .download-btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.pc-download-module .module-qr .content .download-btn .btn {
+  background-image: url(https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01uAl8kB1wEv2DNjdhB_!!6000000006277-2-tps-125-36.png);
+  background-size: 100% auto;
+  height: 24px;
+  width: 83px;
+}
+.pc-download-module .module-qr .content .download-btn .btn-2 {
+  background-image: url(https://img.lazcdn.com/g/tps/imgextra/i1/O1CN01QJGFfc1S0mKngu4rQ_!!6000000002185-2-tps-125-36.png);
 }

@@ -1,0 +1,70 @@
+@media (max-width: 576px) {
+    .modal-content {
+        width: 100% !important;
+        height: auto !important;
+        margin: 1rem;
+    }
+
+    .nav-link {
+        width: 50% !important;
+        font-size: 0.875rem !important;
+    }
+
+    .navtab {
+        padding: 0 1rem !important;
+    }
+
+    .password-body,
+    .phoneNumber-input {
+        padding: 0 1rem !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .form-control {
+        font-size: 0.875rem !important;
+        height: 2.5rem !important;
+    }
+
+    .btn {
+        font-size: 0.875rem !important;
+        height: 2.25rem !important;
+    }
+
+    .password-icon {
+        left: 90% !important;
+        top: 30% !important;
+        transform: translate(-50%, -50%);
+    }
+
+    .country-code {
+        width: 4rem !important;
+        font-size: 0.75rem !important;
+    }
+
+    .whatsapp-logo {
+        top: 20% !important;
+        left: 4% !important;
+        height: 18px !important;
+        width: 18px !important;
+    }
+
+    .page-footer,
+    .signup,
+    .forgot-password,
+    .google,
+    .facebook {
+        font-size: 0.75rem !important;
+    }
+
+    .gf-icon {
+        gap: 1rem;
+        flex-direction: column;
+        margin-top: 0.75rem !important;
+    }
+
+    .social-icon {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}

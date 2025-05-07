@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daraz.pk</title>
+    <!-- CSS File Link-->
+    <link rel="stylesheet" href="./css/homePage/homePage.css">
+    <link rel="stylesheet" href="./css/loginPage/loginPage.css">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- JQuerry CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- NavBar -->
+    <!-- Done -->
+    <header class="bg-orange">
+        <div class="text-white " style="padding-top: 3px !important;">
+            <div class="container">
+                <div class="m-lr-54">
+                    <div class="d-flex d-md-none justify-content-end">
+                        <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#topMenuCollapse" aria-controls="topMenuCollapse" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span> Menu
+                        </button>
+                    </div>
+
+                    <div class=" collapse d-lg-flex d-md-flex justify-content-lg-end justify-content-md-center gap-lg-4 gap-sm-2 "
+                        id="topMenuCollapse">
+                        <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">SAVE
+                            MORE ON
+                            APP</a>
+                        <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">SELL
+                            ON DARAZ</a>
+                        <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">HELP &
+                            SUPPORT</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
+                            class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">LOGIN</a>
+                        <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: 5px;">SIGN
+                            UP</a>
+                        <a href="#" class="text-white text-decoration-none fs-8">زبان
+                            تبدیل کریں</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <div class="py-2">
+            <div class="container pt-8 pb-25">
+                <div class="m-lr-54">
+                    <div class="row align-items-center">
+                        <div class="col-md-2 col-3 d-flex align-items-center justify-content-start">
+                            <a href="#" class="text-decoration-none">
+                                <img src="/images/logo.png" alt="Daraz" class="img-fluid h-40">
+
+                            </a>
+                        </div>
+                        <div class="col-md-8 col-7" style="width: 44.5rem;">
+                            <div class="input-group" style="position: relative; top: -4px; left: 1px;">
+                                <input type="text" class="form-control " placeholder="Search in Daraz"
+                                    aria-label="Search in Daraz" style="height: 45px;">
+                                <button class="btn btn-light text-orange" type="button">
+                                    <img src="/icons/search.svg" alt="Search" width="22px" class="top--2">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-2 text-start ms-1"
+                            style="position: relative; top: 1px !important; left: 2px; ">
+                            <a href="#" class="text-white fs-5">
+                                <svg width="30" height="30" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.51345 5H1.33325V3H6.15306L7.21972 8.33333H30.5315L27.5012 25H8.51345L4.51345 5ZM7.61972 10.3333L10.1531 23H25.832L28.135 10.3333H7.61972Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M11.9999 28C11.9999 28.7364 11.403 29.3333 10.6666 29.3333C9.93021 29.3333 9.33325 28.7364 9.33325 28C9.33325 27.2636 9.93021 26.6667 10.6666 26.6667C11.403 26.6667 11.9999 27.2636 11.9999 28Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M25.3333 29.3333C26.0696 29.3333 26.6666 28.7364 26.6666 28C26.6666 27.2636 26.0696 26.6667 25.3333 26.6667C24.5969 26.6667 23.9999 27.2636 23.9999 28C23.9999 28.7364 24.5969 29.3333 25.3333 29.3333Z"
+                                        fill="white"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="bg-white" style="overflow: scroll;">
+        <!-- hero section -->
+        <!-- done -->
+        <section>
+            <!--Carousel-->
+            <div class="promotion-section d-flex " >
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" style="margin-right: -10px">
+                    <div class=" carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.lazcdn.com/us/domino/ad29a6a8-ccd6-43df-a844-eb6b8a62b806_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+                                alt="Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/451a5542-f719-4905-9eac-8402b24e276a_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+                                alt="Slide 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/4f7a4724-39cc-4039-936e-496cab88b228_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+                                alt="Slide 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/473d596e-07ef-4b87-a498-68f6079af376_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+                                alt="Slide 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/a2e8a274-cfb1-41fe-9dee-3b543cde1f75_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+                                alt="Slide 5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/4469d09a-f749-4d5f-90fc-2bf1b47fa14d_PK-1976-688.png_2200x2200q80.png_.webp"
+                                alt="Slide 6">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/37146d83-ef5f-4b94-a7c1-73f9446fdf50_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+                                alt="Slide 7">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/e18d2af4-d385-4972-85f5-49a0cf41c598_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+                                alt="Slide 8">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/2791dc50-40be-4d9c-a049-2523b340c649_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
+                                alt="Slide 9">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://img.lazcdn.com/us/domino/4469d09a-f749-4d5f-90fc-2bf1b47fa14d_PK-1976-688.png_2200x2200q80.png_.webp"
+                                alt="Slide 10">
+                        </div>
+                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- side-download-module -->
+                <div class="pc-download-module left--16" >
+                    <div class="module-title">
+                        <div class="picture-wrapper common-img logo"><img
+                                src="https://img.lazcdn.com/us/domino/1ee015d6a5c62fd0339c88c657c1c183.jpg_120x120q80.jpg_.webp"
+                                style="object-fit:cover" width="25px"></div><span class="title two-line-clamp">TRY DARAZ
+                            APP</span>
+                    </div>
+                    <div class="module-content">
+                        <div class="score">
+                            <div class="picture-wrapper common-img star"><img
+                                    src="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01cAMOjU1zqQJZU8EbT_!!6000000006765-2-tps-19-18.png_80x80q80.png_.webp"
+                                    style="object-fit:cover"></div><span class="rated-txt">4.8
+                                Rated</span>
+                        </div>
+                        <div class="enjoy-tips-wrap"><span class="enjoy-tips two-line-clamp">Download the App
+                                now</span></div>
+                        <div class="free-voucher-icons">
+                            <div class="icon-item">
+                                <div class="picture-wrapper common-img badge p-0"><img
+                                        src="https://img.lazcdn.com/g/tps/imgextra/i2/O1CN01n3PMa828kJZVuCbPp_!!6000000007970-2-tps-72-72.png_150x150q80.png_.webp"
+                                        style="object-fit:cover"></div><span class="txt two-line-clamp">Free
+                                    Shipping</span>
+                            </div>
+                            <div class="icon-item">
+                                <div class="picture-wrapper common-img badge p-0"><img
+                                        src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01J03SMW1lebTE7xkaN_!!6000000004844-2-tps-72-72.png_150x150q80.png_.webp"
+                                        style="object-fit:cover"></div><span class="txt two-line-clamp">Exclusive
+                                    Vouchers</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-qr">
+                        <div class="content">
+                            <div class="picture-wrapper common-img qr-code-image"><img
+                                    src="https://img.drz.lazcdn.com/g/tps/imgextra/i2/O1CN01jHjmpl1pxcRVgFrYS_!!6000000005427-0-tps-150-150.jpg_360x360q80.jpg_.webp"
+                                    style="object-fit:cover"></div>
+                            <div class="download-btn"><a
+                                    href="https://apps.apple.com/pk/app/daraz-online-shopping-app/id978058048"
+                                    class="btn btn-1"></a><a
+                                    href="https://play.google.com/store/apps/details?id=com.daraz.android"
+                                    class="btn btn-2"></a></div>
+                        </div><span class="download-tips two-line-clamp">Download the App
+                            Now!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section>
+            <div class="promotion-section">
+                <!-- Sale Banner -->
+                <!-- Done -->
+                <div class="top-1 row">
+                    <img src="./images/promotions.PNG" alt="Discount banner" class="img-fluid pe-2">
+                </div>
+
+                <!-- Flash Sale -->
+                <p class="row flash-sale m-0 muted top--5">Flash Sale</p>
+                <div class="bg-white">
+                    <div class="d-flex justify-content-between heading-row">
+                        <div class="sale-header ms-4 left--4">On Sale Now</div>
+                        <div class="shop-button">
+                            <span class="sale-header">SHOP ALL PRODUCTS</span>
+                        </div>
+                    </div>
+
+                    <!-- Products -->
+                    <div class="container">
+                        <div class="row" id="product-container">
+                            <!-- Products will be dynamically inserted here -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Categories -->
+                <div>
+                    <div class="categories">Categories</div>
+                    <div class="bg-white d-flex">
+                        <div class="category-item pt-3  ">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/cb76d80ce72a9edb12f4e3ffeea2b6ca.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Anklets</div>
+                            </div>
+                        </div>
+
+                        <div class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/bd/p/92195185e78598cbb0791a45225b0bcc.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Sports Backpacks</div>
+                            </div>
+                        </div>
+
+                        <div class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/faf2354449e93cc5ff2889ab35d8de78.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">3D Printers</div>
+                            </div>
+                        </div>
+
+                        <div class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/3rd/q/aHR0cDovL0U0azFOOHEzUDcubGhqb20udG9wL3RyYWRlLzIvMjQwNTI0L2E4OWRkMTE2MmM5MDc4Njk2NDQxLmpwZw==_170x170q80.png_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Pasta,Noodle</div>
+                            </div>
+                        </div>
+
+                        <div class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/cd5438590c43bf0c63cb766bf5028bc4.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Screen Protectors</div>
+                            </div>
+                        </div>
+
+                        <div class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/8f0d884f5d8a36d908a479b8605b9424.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Cassrole Pots</div>
+                            </div>
+                        </div>
+
+                        <div class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/529c5a8e0fab474cf6803aba0855429d.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Muzzels</div>
+                            </div>
+                        </div>
+
+                        <div id="item-8" class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/f5fc2066d1d4ad8cd8028f8ec4f60d4e.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Hoodies & SweatShirts</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categories Row2 -->
+                    <div class="bg-white d-flex">
+                        <div id="row-2" class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/2b5ff9a9a1ae7b299f89d9124e52abba.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Toy Boxes & Organizers</div>
+                            </div>
+                        </div>
+
+                        <div id="row-2" class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/8e70ab3937d92d676be1820eb43fdab2.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Dog & Cat Electric Clippers</div>
+                            </div>
+                        </div>
+
+                        <div id="row-2" class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/8fb521b47453c24939075acfbe61a3e0.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Fixture Parts & Components</div>
+                            </div>
+                        </div>
+
+                        <div id="row-2" class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/3d302ee22bd5bd2fdc38b103cd603712.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Dining Sets</div>
+                            </div>
+                        </div>
+
+                        <div id="row-2" class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/9b055fb4478cf5d97aa189ef89818736.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Microphones</div>
+                            </div>
+                        </div>
+
+                        <div id="row-2" class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/3a9e4d3d1abc205c8cbf9f7a3686556a.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Bed Sheets</div>
+                            </div>
+                        </div>
+
+                        <div id="row-2" class="category-item pt-3">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/c6dada8da19898e4cb03ded436eb5da6.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Leashes & Harnesses</div>
+                            </div>
+                        </div>
+
+                        <div id="item-8" class="category-item pt-3 border-bottom-0">
+                            <div>
+                                <img src="https://img.drz.lazcdn.com/static/pk/p/50e4b0dd263af5c0a3ec75a25be58b83.jpg_170x170q80.jpg_.webp"
+                                    alt="" height="80px" width="80px">
+                                <div class="item-name">Donate To Educate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add this after the Categories section in your HTML -->
+                <div>
+                    <div class="categories">For You Products</div>
+                    <div class="bg-white">
+                        <!-- Heading -->
+
+                        <!-- Products -->
+                        <div class="container">
+                            <div class="row" id="for-you-container">
+                                <!-- Products will be dynamically inserted here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="load-more">
+                    <div class="more">
+                        Load more
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="footer d-flex">
+                <div class="customer-care">
+                    <div>Customer Care</div>
+                    <a href="#">Help Center</a>
+                    <a href="#">How to buy</a>
+                    <a href="#">Corporate And Bulk Purchasing</a>
+                    <a href="#">Returns &Refunds</a>
+                    <a href="#">Daraz Shop</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Purchase Protection</a>
+                    <a href="#">Daraz Pick Up Points</a>
+                </div>
+
+                <div class="daraz-footer">
+                    <div>Daraz</div>
+                    <a href="">About Us</a>
+                    <a href="">Digital Payments</a>
+                    <a href="">Daraz Donates</a>
+                    <a href="">Daraz Blog</a>
+                    <a href="">Terms & Conditions</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">NTN Number : 4012118-6</a>
+                    <a href="">STRN Number : 1700401211818</a>
+                    <a href="">Online Shopping App</a>
+                    <a href="">Online Grocery Shopping</a>
+                    <a href="">Daraz Exclusive</a>
+                    <a href="">Daraz University</a>
+                    <a href="">Sell on Daraz</a>
+                    <a href="">Join Daraz Affiliate Program</a>
+                </div>
+                <img src="./images/Capture1.PNG" alt=" " height="120px" width="594px" class="mt-2">
+            </div>
+
+            <div class="d-flex payment-method">
+                <div>
+                    <div class="mb-15">Payment Methods</div>
+                    <img src="./images/allPaymentMethod.PNG" alt="" class="me-7">
+                </div>
+                <div>
+                    <div class="mb-15">Verfied By</div>
+                    <img src="./images/onlinePayment.png" alt="">
+
+                </div>
+            </div>
+
+            <div class="footer-explanation">
+
+                <div class="me-5">
+                    <div class="m-tb-5">Daraz International</div>
+                    <img src="./images/Pakistan.png" alt="" height="28px" width="28px">
+                    <a href="" class="m-lf-15 ">Pakistan</a>
+                    <img src="./images/Bangladesh.png" alt="" height="28px" width="28px">
+                    <a href="" class="m-lf-15">Bangladesh</a>
+                    <img src="./images/Srilanka.png" alt="" height="28px" width="28px">
+                    <a href="" class="m-lf-15">Srilanka</a>
+                    <img src="./images/Myanmar.png" alt="" height="28px" width="28px">
+                    <a href="" class="m-lf-15">Myanmar</a>
+                    <img src="./images/Nepal.png" alt="" height="28px" width="28px">
+                    <a href="" class="m-lf-15"> Nepal</a>
+                </div>
+
+                <div>
+                    <div class="m-tb-5">Follow us</div>
+                    <img src="./images/FaceBook.png" alt="" height="28px" width="28px" class="me-2">
+                    <img src="./images/Instagram.png" alt="" height="28px" width="28px" class="me-2">
+                    <img src="./images/Twitter.png" alt="" height="28px" width="28px" class="me-2">
+                    <img src="./images/WikiPedia.png" alt="" height="28px" width="28px" class="me-2">
+                    <img src="./images/Youtube.png" alt="" height="28px" width="28px" class="me-2">
+                </div>
+
+                <div class="daraz-logo-footer">© Daraz 2025</div>
+            </div>
+
+        </footer>
+    </main>
+
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/auth.js"></script>
+</body>
+
+</html>

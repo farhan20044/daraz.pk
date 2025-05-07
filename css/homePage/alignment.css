@@ -1,0 +1,78 @@
+.px-10-py-5{
+    padding: 1.875rem 10.4rem !important;
+}
+.text-muted{
+    color: rgb(185, 176, 176) !important;
+}
+.fs-8{
+    font-size: 0.75rem;
+}
+.py-1{
+    padding: 0.188rem 0 !important ;
+}
+
+.m-lr-54{
+    margin: 0 54px;
+}
+.pt-8{
+    padding-top: 11px; 
+}
+.pb-25{
+    padding-bottom: 25px;
+}
+.h-40{
+    height: 40px !important;
+}
+.top--2{
+    position: relative; 
+    top: -2px;
+}
+.ms-5{
+    margin-left: 2.938rem !important;
+}
+.w-1012{
+    width: 63.25rem !important;
+}
+.ml-45{
+    margin-left: 45px !important;
+}
+
+.m-50{
+    margin-left: 50px ;
+}
+.mx-6{
+    margin: 0 6px !important;
+}
+.top-1{
+    position: relative;
+    top: 1px;
+}
+.top--1{
+    position: relative;
+    top: -1px;
+}
+.top--5{
+    position: relative;
+    top: -5px;
+}
+.left--4{
+    position: relative;
+    left: -4px;
+}
+.left--16{
+    position: relative;
+    left: 16px;
+}
+
+.bg-white{
+    background-color: #F5F5F5 !important;
+}
+.page {
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    margin: 0 auto;
+    min-width: 1188px;
+    overflow-y: hidden;
+    width: 100%;
+}

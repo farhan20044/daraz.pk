@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daraz.pk</title>
+
+  <!-- CSS File Link-->
+  <link rel="stylesheet" href="./css/productPage.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- JQuerry CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <link rel="stylesheet" href="/css/productPage/productPage.css">
+  <link rel="stylesheet" href="/css/homePage/topbar.css">
+  <link rel="stylesheet" href="/css/homePage/footer.css">
+  <link rel="stylesheet" href="/css/homePage/alignment.css">
+  <link rel="stylesheet" href="/css/homePage/input.css">
+  <link rel="stylesheet" href="/css/productPage/comments.css">
+  <link rel="stylesheet" href="/css/productPage/question-section.css">
+  <link rel="stylesheet" href="/css/productPage/review.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    .qt-btn{
+      background-color: rgb(212, 211, 211) !important;
+      width: 31px !important;
+      height: 31px !important;
+      border: none;
+    }
+    .cart-btn{
+      color: white;
+      width: 50px;
+      height: 43px;
+      border-radius: 2px;
+      background-color: #2ABBE8 !important;
+      border: none;
+    }
+    .buy-btn{
+      color: white;
+      background-color: #F57224 !important;
+      border: none;
+      border-radius: 2px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <header class="bg-orange">
+    <div class="text-white " style="padding-top: 3px !important;">
+      <div class="container">
+        <div class="m-lr-54">
+
+          <div class="d-flex d-md-none justify-content-end">
+            <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse"
+              data-bs-target="#topMenuCollapse" aria-controls="topMenuCollapse" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span> Menu
+            </button>
+          </div>
+
+          <div class=" collapse d-lg-flex d-md-flex justify-content-lg-end justify-content-md-center gap-lg-4 gap-sm-2 "
+            id="topMenuCollapse">
+            <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">SAVE MORE ON
+              APP</a>
+            <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">SELL ON DARAZ</a>
+            <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">HELP & SUPPORT</a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
+              class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">LOGIN</a>
+            <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: 5px;">SIGN UP</a>
+            <a href="#" class="text-white text-decoration-none fs-8">زبان
+              تبدیل کریں</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <div class="py-2">
+      <div class="container pt-8 pb-25">
+        <div class="m-lr-54">
+          <div class="row align-items-center">
+            <div class="col-md-2 col-3 d-flex align-items-center justify-content-start">
+              <a href="#" class="text-decoration-none">
+                <img src="/images/logo.png" alt="Daraz" class="img-fluid h-40">
+
+              </a>
+            </div>
+            <div class="col-md-8 col-7" style="width: 44.5rem;">
+              <div class="input-group" style="position: relative; top: -4px; left: 1px;">
+                <input type="text" class="form-control " placeholder="Search in Daraz" aria-label="Search in Daraz"
+                  style="height: 45px;">
+                <button class="btn btn-light text-orange" type="button">
+                  <img src="/icons/search.svg" alt="Search" width="22px" class="top--2">
+                </button>
+              </div>
+            </div>
+            <div class="col-md-2 col-2 text-start ms-1" style="position: relative; top: 1px !important; left: 2px; ">
+              <a href="#" class="text-white fs-5">
+                <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M4.51345 5H1.33325V3H6.15306L7.21972 8.33333H30.5315L27.5012 25H8.51345L4.51345 5ZM7.61972 10.3333L10.1531 23H25.832L28.135 10.3333H7.61972Z"
+                    fill="white"></path>
+                  <path
+                    d="M11.9999 28C11.9999 28.7364 11.403 29.3333 10.6666 29.3333C9.93021 29.3333 9.33325 28.7364 9.33325 28C9.33325 27.2636 9.93021 26.6667 10.6666 26.6667C11.403 26.6667 11.9999 27.2636 11.9999 28Z"
+                    fill="white"></path>
+                  <path
+                    d="M25.3333 29.3333C26.0696 29.3333 26.6666 28.7364 26.6666 28C26.6666 27.2636 26.0696 26.6667 25.3333 26.6667C24.5969 26.6667 23.9999 27.2636 23.9999 28C23.9999 28.7364 24.5969 29.3333 25.3333 29.3333Z"
+                    fill="white"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Bread crumb -->
+  <div class="container pt-4 ">
+    <nav aria-label="breadcrumb" class="mb-4">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Home</a></li>
+        <li class="breadcrumb-item"><a href="#" class="text-decoration-none" id="productCategory">Category</a></li>
+        <li class="breadcrumb-item active" aria-current="page" id="productName">Product Name</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container " style="background-color: #fff;">
+    <!-- Product Details -->
+    <div class="row p-0 m-0" id="productDetails">
+      <div class="col-lg-4 col-md-6 mb-4 py-4">
+        <div class="product-image-container">
+          <img src="/placeholder.svg" alt="Product Image" class="img-fluid rounded" id="productImage">
+        </div>
+        <div class="row mt-3 product-thumbnails" id="productThumbnails">
+          <!-- Thumbnails will be added dynamically -->
+        </div>
+
+      </div>
+
+      <div class="col-lg-5 col-md-6 py-4 px-4">
+
+        <h1 class="fs-4 mb-3" id="productTitle">Product Title</h1>
+
+        <div class="d-flex align-items-center mb-3">
+          <div class="me-3">
+            <span class="text-warning" id="productRating">★★★★☆</span>
+            <a class="small" id="productReviews">(120 Reviews)</a>
+          </div>
+          <div class="border-start ps-3">
+            <a class=" small" id="productSold">300 Sold</a>
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center mb-3">
+          <div class="me-2">
+            <span class="text-muted small" id="productReviews">Brand: </span>
+          </div>
+          <a class=" small pe-2" id="productReviews">No brand </a>
+          <div class="border-start ps-2">
+            <a class=" small" id="productSold">300 Sold</a>
+          </div>
+        </div>
+
+        <div class="mb-4 p-3 rounded d-flex flex-column">
+          <span class="fs-3 text-orange fw-bold" id="productPrice">Rs. 0</span>
+          <div>
+          <span class="text-decoration-line-through text-muted ms-2" id="productOriginalPrice">Rs. 0</span>
+          <span class="text-orange ms-2" id="productDiscount">-0%</span>
+        </div>
+        </div>
+
+        <div class="mb-4 d-flex flex-row">
+          <h5 class="fs-6 m-0 pe-3 d-flex align-items-center justify-content-center">Quantity</h5>
+          <div class="d-flex align-items-center">
+            <button class="qt-btn btn-outline-secondary" id="decreaseQuantity">-</button>
+            <input type="number" class="form-control m-0 p-0 text-center" value="1" min="1" style="max-width: 55px;"
+              id="quantityInput">
+            <button class="qt-btn btn-outline-secondary" id="increaseQuantity">+</button>
+            <span class="ms-3 text-muted small" id="productStock">In stock: 100</span>
+          </div>
+        </div>
+
+        <div class="d-grid gap-2 d-md-flex gap-3">
+          <button class="cart-btn flex-grow-1" id="addToCartBtn">
+            <i class="bi bi-cart-plus me-2"></i>Add to Cart
+          </button>
+          <button class="buy-btn btn-outline-orange flex-grow-1" id="buyNowBtn">
+            Buy Now
+          </button>
+        </div>
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 bg-light py-4">
+        <div class="delivery-options-container">
+          <!-- Delivery Options Section -->
+          <div class="section-header d-flex justify-content-between align-items-center mb-2">
+            <div class="d-flex align-items-center">
+              <span class="fw-medium">Delivery Options</span>
+              <i class="bi bi-info-circle ms-1 text-muted small"></i>
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="d-flex mb-3">
+            <div class="location-icon me-2">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="flex-grow-1">
+              <div class="location-text">Sindh, Karachi - Gulshan-e-Iqbal, Block 15</div>
+              <a href="#" class="change-link">CHANGE</a>
+            </div>
+          </div>
+
+          <!-- Standard Delivery -->
+          <div class="d-flex justify-content-between mb-2">
+            <div class="d-flex">
+              <div class="delivery-icon me-2">
+                <i class="bi bi-truck"></i>
+              </div>
+              <div>
+                <div class="delivery-type">Standard Delivery</div>
+                <div class="delivery-guarantee text-muted small">Guaranteed by 8-12 May</div>
+              </div>
+            </div>
+            <div class="delivery-price">Rs. 135</div>
+          </div>
+
+          <!-- Cash on Delivery -->
+          <div class="d-flex mb-3">
+            <div class="cash-icon me-2">
+              <i class="bi bi-cash-coin"></i>
+            </div>
+            <div class="cash-text">Cash on Delivery Available</div>
+          </div>
+
+          <!-- Return & Warranty -->
+          <div class="section-header d-flex justify-content-between align-items-center mt-4 mb-2">
+            <div class="d-flex align-items-center">
+              <span class="fw-medium">Return & Warranty</span>
+              <i class="bi bi-info-circle ms-1 text-muted small"></i>
+            </div>
+          </div>
+
+          <!-- Return Policy -->
+          <div class="d-flex mb-2">
+            <div class="return-icon me-2">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </div>
+            <div class="return-text">14 days easy return</div>
+          </div>
+
+          <!-- Warranty -->
+          <div class="d-flex mb-3">
+            <div class="warranty-icon me-2">
+              <i class="bi bi-shield-x"></i>
+            </div>
+            <div class="warranty-text">Warranty not available</div>
+          </div>
+
+          <!-- QR Code Section -->
+          <div class="qr-code-section d-flex p-3 bg-white border rounded mb-3">
+            <div class="qr-code me-3">
+              <img
+                src="https://img.drz.lazcdn.com/g/tps/imgextra/i2/O1CN01jHjmpl1pxcRVgFrYS_!!6000000005427-0-tps-150-150.jpg_360x360q80.jpg_.webp"
+                alt="QR Code" class="img-fluid" style="max-width: 80px;">
+            </div>
+            <div class="app-info">
+              <div class="app-icon mb-1">
+                <img src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1v0FLaMFY.1VjSZFnXXcFHXXa.png" alt="Daraz App"
+                  width="40" height="40">
+              </div>
+              <div class="app-text small">Download app to enjoy exclusive discounts!</div>
+              <div class="scan-option mt-2">
+                <input type="checkbox" id="scanWithMobile" class="form-check-input me-1">
+                <label for="scanWithMobile" class="form-check-label small">Scan with mobile</label>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+
+    <!-- Product Description -->
+    <div class="row mt-4 d-none">
+      <div class="col-12">
+        <div class="product-details-section">
+          <h4 class="mb-3">Product Details</h4>
+          <div class="product-specs">
+            <div class="spec-row">
+              <div class="spec-label">Brand</div>
+              <div class="spec-value" id="productBrand">Brand Name</div>
+            </div>
+            <div class="spec-row">
+              <div class="spec-label">Description</div>
+              <div class="spec-value" id="productDescription">Loading product description...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related Products -->
+    <div class="mt-5">
+      <h2 class="fs-4 mb-3">Related Products</h2>
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3" id="relatedProducts">
+        <!-- Related products will be loaded dynamically -->
+      </div>
+    </div>
+  </main>
+
+  <!-- reviews -->
+  <div class="container mt-4">
+    <div class="product-details" style="margin-right: 350px;">
+      <h2 class="product-title">Product details of Pepsi 500ml PET - Pack of 12</h2>
+
+      <div class="product-info mt-4">
+        <ul class="bullet-list">
+          <li>Pepsi 500ml - Pack of 12</li>
+        </ul>
+      </div>
+
+      <hr class="divider">
+
+      <div class="product-description">
+        <h3 class="product-subtitle">Pepsi 500ml - Pack of 12</h3>
+        <ul class="bullet-list">
+          <li>Delivered stock will have a minimum of 30 days expiry.</li>
+          <li>No returns will be accepted for items having a minimum expiry of 30 days.</li>
+        </ul>
+      </div>
+
+      <hr class="divider">
+
+      <div class="specifications">
+        <h3 class="product-subtitle">Specifications of Pepsi 500ml PET - Pack of 12</h3>
+
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="spec-item">
+              <div class="spec-label">Brand</div>
+              <div class="spec-value">Pepsi</div>
+            </div>
+
+            <div class="spec-item mt-3">
+              <div class="spec-label">Drink Type</div>
+              <div class="spec-value">Bottled</div>
+            </div>
+
+            <div class="spec-item mt-3">
+              <div class="spec-label">What's in the box</div>
+              <div class="spec-value">Pepsi 500ml - Pack of 12</div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="spec-item">
+              <div class="spec-label">SKU</div>
+              <div class="spec-value">144468934_PK-1305946833</div>
+            </div>
+
+            <div class="spec-item mt-3">
+              <div class="spec-label">Flavor</div>
+              <div class="spec-value">Other</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- comments -->
+  <div class="container mt-4">
+    <div class="ratings-section" style="margin-right: 350px;">
+      <h2 class="ratings-title">Ratings & Reviews of Pepsi 500ml PET - Pack of 12</h2>
+
+      <div class="ratings-content mt-4">
+        <div class="row">
+          <!-- Overall Rating -->
+          <div class="col-md-3">
+            <div class="overall-rating">
+              <h1 class="rating-number">4.8<span class="rating-scale">/5</span></h1>
+              <div class="rating-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="ratings-count">469 Ratings</p>
+            </div>
+          </div>
+
+          <!-- Rating Breakdown -->
+          <div class="col-md-9">
+            <div class="rating-breakdown">
+              <div class="rating-bar-item  w-50">
+                <div class="stars-container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <span class="rating-count">425</span>
+              </div>
+
+              <div class="rating-bar-item w-50">
+                <div class="stars-container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <span class="rating-count">24</span>
+              </div>
+
+              <div class="rating-bar-item w-50">
+                <div class="stars-container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 1%" aria-valuenow="1" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <span class="rating-count">2</span>
+              </div>
+
+              <div class="rating-bar-item w-50">
+                <div class="stars-container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 1%" aria-valuenow="1" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <span class="rating-count">3</span>
+              </div>
+
+              <div class="rating-bar-item w-50">
+                <div class="stars-container">
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 3%" aria-valuenow="3" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <span class="rating-count">15</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <!-- Product Reviews Section -->
+      <div class="product-reviews">
+        <div class="reviews-header">
+          <h3 class="reviews-title">Product Reviews</h3>
+          <div class="reviews-filters">
+            <div class="sort-dropdown">
+              <span class="sort-label"><i class="fas fa-sort"></i> Sort:</span>
+              <div class="dropdown d-inline-block">
+                <button class="btn dropdown-toggle sort-btn" type="button" id="sortDropdown" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Relevance
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                  <li><a class="dropdown-item" href="#">Relevance</a></li>
+                  <li><a class="dropdown-item" href="#">Newest First</a></li>
+                  <li><a class="dropdown-item" href="#">Oldest First</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="filter-dropdown">
+              <span class="filter-label"><i class="fas fa-filter"></i> Filter:</span>
+              <div class="dropdown d-inline-block">
+                <button class="btn dropdown-toggle filter-btn" type="button" id="filterDropdown"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  All star
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="filterDropdown">
+                  <li><a class="dropdown-item" href="#">All star</a></li>
+                  <li><a class="dropdown-item" href="#">5 star</a></li>
+                  <li><a class="dropdown-item" href="#">4 star</a></li>
+                  <li><a class="dropdown-item" href="#">3 star</a></li>
+                  <li><a class="dropdown-item" href="#">2 star</a></li>
+                  <li><a class="dropdown-item" href="#">1 star</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Individual Review -->
+        <div class="review-item">
+          <div class="review-header">
+            <div class="review-rating">
+              <div class="rating-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="review-date">21 Nov 2023</div>
+          </div>
+
+          <div class="reviewer-info">
+            <span class="reviewer-name">Syed Z.</span>
+            <span class="verified-badge"><i class="fas fa-check-circle"></i> Verified Purchase</span>
+          </div>
+
+          <div class="review-content">
+            <p>zbrdst yar maza agya etni discount k stah order ka, bht zbrdst experirece rha Daraz k sath. thanks daraz.
+            </p>
+            <p class="review-tag">#11.11</p>
+          </div>
+
+          <div class="review-images">
+            <div class="review-image">
+              <img src="https://via.placeholder.com/100x100" alt="Review Image 1">
+            </div>
+            <div class="review-image">
+              <img src="https://via.placeholder.com/100x100" alt="Review Image 2">
+            </div>
+            <div class="review-image">
+              <img src="https://via.placeholder.com/100x100" alt="Review Image 3">
+            </div>
+          </div>
+
+          <div class="review-actions">
+            <button class="btn like-btn"><i class="far fa-thumbs-up"></i> <span class="like-count">0</span></button>
+            <button class="btn more-btn"><i class="fas fa-ellipsis-v"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Question section -->
+  <div class="container mt-4">
+    <div class="questions-section" style="margin-right: 350px; background-color: #fff;">
+      <h2 class="questions-title ms-3">Questions about this product</h2>
+
+      <div class="questions-content text-center">
+        <div class="question-icon">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M42 6H18C13.6 6 10 9.6 10 14V34C10 38.4 13.6 42 18 42H24V50L32 42H42C46.4 42 50 38.4 50 34V14C50 9.6 46.4 6 42 6Z"
+              stroke="#AAAAAA" stroke-width="2" fill="none" />
+            <text x="30" y="32" text-anchor="middle" font-size="24" font-family="Arial" fill="#AAAAAA">?</text>
+          </svg>
+        </div>
+
+        <p class="no-questions">There are no questions yet.</p>
+
+        <p class="login-text">
+          <a href="#" class="login-link">Login</a> or <a href="#" class="register-link">Register</a> to ask the seller
+          now and answer will show here.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="footer d-flex">
+      <div class="customer-care">
+        <div>Customer Care</div>
+        <a href="#">Help Center</a>
+        <a href="#">How to buy</a>
+        <a href="#">Corporate And Bulk Purchasing</a>
+        <a href="#">Returns &Refunds</a>
+        <a href="#">Daraz Shop</a>
+        <a href="#">Contact us</a>
+        <a href="#">Purchase Protection</a>
+        <a href="#">Daraz Pick Up Points</a>
+      </div>
+
+      <div class="daraz-footer">
+        <div>Daraz</div>
+        <a href="">About Us</a>
+        <a href="">Digital Payments</a>
+        <a href="">Daraz Donates</a>
+        <a href="">Daraz Blog</a>
+        <a href="">Terms & Conditions</a>
+        <a href="">Privacy Policy</a>
+        <a href="">NTN Number : 4012118-6</a>
+        <a href="">STRN Number : 1700401211818</a>
+        <a href="">Online Shopping App</a>
+        <a href="">Online Grocery Shopping</a>
+        <a href="">Daraz Exclusive</a>
+        <a href="">Daraz University</a>
+        <a href="">Sell on Daraz</a>
+        <a href="">Join Daraz Affiliate Program</a>
+      </div>
+      <img src="./images/Capture1.PNG" alt=" " height="120px" width="594px" class="mt-2">
+    </div>
+
+    <div class="d-flex payment-method">
+      <div>
+        <div class="mb-15">Payment Methods</div>
+        <img src="./images/allPaymentMethod.PNG" alt="" class="me-7">
+      </div>
+      <div>
+        <div class="mb-15">Verfied By</div>
+        <img src="./images/onlinePayment.png" alt="">
+
+      </div>
+    </div>
+
+    <div class="footer-explanation">
+
+      <div class="me-5">
+        <div class="m-tb-5">Daraz International</div>
+        <img src="./images/Pakistan.png" alt="" height="28px" width="28px">
+        <a href="" class="m-lf-15 ">Pakistan</a>
+        <img src="./images/Bangladesh.png" alt="" height="28px" width="28px">
+        <a href="" class="m-lf-15">Bangladesh</a>
+        <img src="./images/Srilanka.png" alt="" height="28px" width="28px">
+        <a href="" class="m-lf-15">Srilanka</a>
+        <img src="./images/Myanmar.png" alt="" height="28px" width="28px">
+        <a href="" class="m-lf-15">Myanmar</a>
+        <img src="./images/Nepal.png" alt="" height="28px" width="28px">
+        <a href="" class="m-lf-15"> Nepal</a>
+      </div>
+
+      <div>
+        <div class="m-tb-5">Follow us</div>
+        <img src="./images/FaceBook.png" alt="" height="28px" width="28px" class="me-2">
+        <img src="./images/Instagram.png" alt="" height="28px" width="28px" class="me-2">
+        <img src="./images/Twitter.png" alt="" height="28px" width="28px" class="me-2">
+        <img src="./images/WikiPedia.png" alt="" height="28px" width="28px" class="me-2">
+        <img src="./images/Youtube.png" alt="" height="28px" width="28px" class="me-2">
+      </div>
+
+      <div class="daraz-logo-footer">© Daraz 2025</div>
+    </div>
+
+  </footer>
+
+  
+<script src="./js/productDetails.js"></script>
+</body>
+
+</html>

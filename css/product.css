@@ -1,0 +1,99 @@
+/* Custom Colors */
+:root {
+    --daraz-orange: #ff6a00;
+    --daraz-blue: #2abbe8;
+    --daraz-purple: #5d147f;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styles */
+.bg-orange {
+    background-color: var(--daraz-orange);
+}
+
+.bg-purple {
+    background-color: var(--daraz-purple);
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Button Styles */
+.btn-orange {
+    background-color: var(--daraz-orange);
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #e55f00;
+    color: white;
+}
+
+.btn-blue {
+    background-color: var(--daraz-blue);
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: #1da7d3;
+    color: white;
+}
+
+/* Text Colors */
+.text-orange {
+    color: var(--daraz-orange);
+}
+
+.text-blue {
+    color: var(--daraz-blue);
+}
+
+.text-purple {
+    color: var(--daraz-purple);
+}
+
+/* Product Image */
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+/* Breadcrumb */
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "›";
+}
+
+.breadcrumb-item a {
+    color: #2abbe8;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product-title {
+        font-size: 1.2rem;
+    }
+    
+    .flash-sale {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .flash-sale div:last-child {
+        margin-top: 8px;
+    }
+}

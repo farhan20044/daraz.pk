@@ -1,0 +1,163 @@
+.hp-mod-card {
+    margin: 0 auto;
+    width: 1188px;
+}
+.flash-sale-comp-container {
+    padding-top: 24px;
+}
+.pc-custom-link {
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+.hp-mod-card .hp-mod-card-header {
+    background: 0 0;
+    height: 38px;
+    line-height: 38px;
+}
+.flash-sale-comp-container .hp-mod-card-header {
+    height: 38px;
+    line-height: 38px;
+}
+.hp-mod-card .hp-mod-card-header .hp-mod-card-title {
+    color: #424242;
+    font-size: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.flash-sale-comp-container .hp-mod-card-header .hp-mod-card-title {
+    color: #424242;
+    font-size: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.flash-sale-comp-container .cardFsContent {
+    background-color: #fff;
+    height: 375px;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-header {
+    background-size: contain;
+    border-bottom: 1px solid #d5d5d5;
+    display: flex
+;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-header .card-fs-content-header-left {
+    align-items: center;
+    display: flex
+;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-header .shopMoreBtn {
+    background-color: transparent;
+    border: 1px solid #f57224;
+    border-radius: 2px;
+    color: #f57224;
+    font-size: 14px;
+    font-weight: 500;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 11px;
+    margin-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-body {
+    display: flex
+;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-body .card-fs-content-body-unit {
+    height: 290px;
+    margin-right: 12px;
+    position: relative;
+    width: 188px;
+}
+a {
+    background-color: transparent;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-body .card-fs-content-body-unit:last-child {
+    margin-right: 0;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-body .card-fs-content-body-unit {
+    height: 290px;
+    margin-right: 12px;
+    position: relative;
+    width: 188px;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-body .card-fs-content-body-unit .fs-card-text {
+    margin: 4px 8px 0;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-body .card-fs-content-body-unit .fs-card-title {
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-body .card-fs-content-body-unit .fs-card-price {
+    color: #f57224;
+    display: flex
+;
+    flex-direction: row;
+    font-size: 18px;
+    height: 22px;
+    letter-spacing: -.56px;
+    line-height: 22px;
+    margin-bottom: 4px;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-body .card-fs-content-body-unit .fs-card-price .currency, .flash-sale-comp-container .cardFsContent .card-fs-content-body .card-fs-content-body-unit .fs-card-price .price {
+    font-size: 18px;
+}
+
+
+
+
+.flash-sale-comp-container .cardFsContent {
+    background-color: #fff;
+    height: 375px;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-header {
+    background-size: contain;
+    border-bottom: 1px solid #d5d5d5;
+    display: flex
+;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-header .card-fs-content-header-left {
+    align-items: center;
+    display: flex
+;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-header .card-fs-content-header-left-status {
+    display: flex
+;
+    justify-content: center;
+    margin-left: 20px;
+}
+.flash-sale-comp-container .cardFsContent .card-fs-content-header .card-fs-content-header-left-status .fs-status-text {
+    color: #f57224;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.flash-sale-comp-container .cardFsContent .card-fs-content-header .shopMoreBtn {
+    background-color: transparent;
+    border: 1px solid #f57224;
+    border-radius: 2px;
+    color: #f57224;
+    font-size: 14px;
+    font-weight: 500;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 11px;
+    margin-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}

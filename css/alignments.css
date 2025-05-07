@@ -16,8 +16,8 @@
 .pt-8{
     padding-top: 8px; 
 }
-.pb-26{
-    padding-bottom: 26px;
+.pb-25{
+    padding-bottom: 25px;
 }
 .h-40{
     height: 40px;
@@ -25,4 +25,17 @@
 .top--2{
     position: relative; 
     top: -2px;
+}
+.ms-5{
+    margin-left: 2.938rem !important;
+}
+.w-1012{
+    width: 63.25rem !important;
+}
+.ml-45{
+    margin-left: 45px !important;
+}
+
+.m-50{
+    margin-left: 50px ;
 }
