@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         currentPage++;
     }
     
-    // Load more button click handler
+    // Load more button click handler 
     function loadMoreClickHandler() {
         loadMoreProducts();
     }

@@ -1,4 +1,4 @@
-// Authentication state management
+// Authentication
 const auth = {
     // Check if user is logged in
     isLoggedIn: function() {
