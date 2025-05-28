@@ -1,4 +1,6 @@
-
+*{
+  font-family: "NatoSans-Regular", sans-serif !important;
+}
 .pc-download-module {
     background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0)),
       linear-gradient(179.27deg, #ffedd6 0.83%, #ffc3e3 46.78%, #fff 99.57%),

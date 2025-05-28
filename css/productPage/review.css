@@ -27,7 +27,7 @@ body {
 }
 
 .bullet-list {
-    padding-left: 20px;
+    padding-left: 20px !important;
     margin-bottom: 0;
 }
 

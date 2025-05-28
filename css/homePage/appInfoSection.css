@@ -53,7 +53,8 @@
 .pc-download-module .module-title .title {
     color: #6c1d00;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 0.4px;
     line-height: 18px;
     margin-left: 6px;
     max-width: 138px;

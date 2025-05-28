@@ -2,7 +2,7 @@
 
 .categories {
     font-size: 1.375rem;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     font-weight: 400;
     padding: 1.5rem 0 0 !important;
 }
@@ -35,7 +35,7 @@
 .item-name {
     margin: 0.5rem 0.75rem 0 !important;
     font-size: 0.875rem !important;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     line-height: 1.125rem;
     text-align: center !important;
 }

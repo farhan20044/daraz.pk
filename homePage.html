@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daraz.pk</title>
+    <title>Online Shopping in Pakistan: Fashion, Electronics & Groceries - Daraz.pk</title>
+    <link rel="shortcut icon" href="https://laz-img-cdn.alicdn.com/imgextra/i1/O1CN01V8uEDV1jdZ9U2wL90_!!6000000004571-73-tps-64-64.ico" type="image/x-icon">
+
     <!-- CSS File Link-->
     <link rel="stylesheet" href="./css/homePage/homePage.css">
     <link rel="stylesheet" href="./css/loginPage/loginPage.css">
+    <link href="./css/font.css" rel="stylesheet">
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- JQuerry CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
@@ -21,7 +25,6 @@
 
 <body>
 
-   
     <!-- NavBar -->
     <header class="bg-orange">
         <div class="text-white " style="padding-top: 3px !important;">
@@ -44,8 +47,11 @@
                             ON DARAZ</a>
                         <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">HELP &
                             SUPPORT</a>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
-                            class="text-white text-decoration-none fs-8 px-2" style="margin-right: -3px;">LOGIN</a>
+                        <a href="#" id="loginBtn" style="margin-right: -3px"
+                            class="text-white text-decoration-none fs-8 px-2" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">
+                            LOGIN
+                        </a>
                         <a href="#" class="text-white text-decoration-none fs-8 px-2" style="margin-right: 5px;">SIGN
                             UP</a>
                         <a href="#" class="text-white text-decoration-none fs-8">زبان
@@ -67,10 +73,11 @@
                         </div>
                         <div class="col-md-8 col-7" style="width: 44.5rem;">
                             <div class="input-group" style="position: relative; top: -4px; left: 1px;">
-                                <input type="text" class="form-control px-0" placeholder="Search in Daraz"
-                                    aria-label="Search in Daraz" style="height: 45px !important; ">
-                                <button class="btn btn-light text-orange" type="button">
-                                    <img src="/icons/search.svg" alt="Search" width="22px" class="top--2">
+                                <input type="text" class="form-control px-2 " placeholder="Search in Daraz"
+                                    aria-label="Search in Daraz"
+                                    style="height: 45px !important; border: none !important; border-radius: 1px !important; text-indent: 5px;">
+                                <button class="btn btn-light text-orange h-45" type="button">
+                                    <img src="/icons/search.svg" alt="Search" width="22px" height="22px" class="top--2">
                                 </button>
                             </div>
                         </div>
@@ -102,8 +109,9 @@
         <!-- done -->
         <section>
             <!--Carousel-->
-            <div class="promotion-section d-flex " >
-                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" style="margin-right: -10px">
+            <div class="promotion-section d-flex ">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+                    style="margin-right: -10px">
                     <div class=" carousel-inner">
                         <div class="carousel-item active">
                             <img src="https://img.lazcdn.com/us/domino/ad29a6a8-ccd6-43df-a844-eb6b8a62b806_PK-1976-688.jpg_2200x2200q80.jpg_.webp"
@@ -161,7 +169,7 @@
                 </div>
 
                 <!-- side-download-module -->
-                <div class="pc-download-module left--16" >
+                <div class="pc-download-module left--16">
                     <div class="module-title">
                         <div class="picture-wrapper common-img logo"><img
                                 src="https://img.lazcdn.com/us/domino/1ee015d6a5c62fd0339c88c657c1c183.jpg_120x120q80.jpg_.webp"
@@ -392,7 +400,7 @@
                         Load more
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!-- footer -->
@@ -473,12 +481,146 @@
         </footer>
     </main>
 
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ps-4 left-3">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <!-- Tabs Navigation -->
+                    <div class="navtab">
+                        <!-- Password -->
+                        <ul class="nav nav-tabs border-0" id="loginTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link active text-decoration-none border-0 p-0 d-flex align-items-center justify-content-center"
+                                    id="password-tab" data-bs-toggle="tab" data-bs-target="#password" type="button"
+                                    role="tab">
+                                    Password
+                                </button>
+                            </li>
+                            <!-- Divider -->
+                            <div class="divider"></div>
+                            <!-- Phone Number -->
+                            <li class="nav-item" role="presentation">
+                                <button
+                                    class="nav-link text-decoration-none border-0 p-0 d-flex align-items-center justify-content-center"
+                                    id="phone-tab" data-bs-toggle="tab" data-bs-target="#phone" type="button" role="tab"
+                                    width="11.5rem">
+                                    Phone Number
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tabs Content -->
+                    <div class="tab-content" id="loginTabsContent">
+                        <!-- Password Tab -->
+                        <div class="tab-pane fade show active" id="password" role="tabpanel">
+                            <div class="password-body">
+                                <input type="email" class="form-control mb-3-1"
+                                    placeholder="Please enter your Phone or Email" />
+                                <div class="d-flex">
+                                    <input type="password" class="form-control position-relative"
+                                        placeholder="Please enter your password" />
+                                    <div class="password-icon position-absolute">
+                                        <svg class="mt--4 left-2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                            viewBox="0 0 36 36" width="24px" height="24px">
+                                            <path
+                                                d="M32.711 11c-3.166 4.841-8.573 8.03-14.71 8.03-6.139 0-11.546-3.189-14.712-8.03M9.79 17.5l-3 5m8.5-3-1 5.5m12.5-7.5 3 5m-8.5-3 1 5.5">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="text-end forgot-password">Forgot password?</div>
+                                <button
+                                    class="btn1 btn-primary w-100 border-0 mt-4-1 d-flex align-items-center justify-content-center">
+                                    LOGIN
+                                </button>
+                            </div>
+                            <div class="signup d-flex align-items-center justify-content-center">
+                                <div class="d-inline me-1">Don't have an account?</div>
+                                <a href="#" class="text-decoration-none"> Sign up</a>
+                            </div>
+                        </div>
+
+                        <!-- Phone Number Tab -->
+                        <div class="tab-pane fade" id="phone" role="tabpanel">
+                            <div class="phoneNumber-input ps-4 pe-4">
+                                <div class="d-flex">
+                                    <input type="tel" class="form-control country-code p-2 " placeholder="PK+92" />
+                                    <input type="tel" class="form-control p-0"
+                                        placeholder="Please enter your phone number" />
+                                </div>
+                                <div class="position-relative">
+                                    <button
+                                        class="btn1 btn-primary w-100 border-0 d-flex align-items-center justify-content-center codeSender-button">
+                                        Send code via Whatsapp
+                                    </button>
+                                    <img src="https://lzd-img-global.slatic.net/g/tps/imgextra/i2/O1CN01a3DUz31SqzLbTfmQ2_!!6000000002299-2-tps-54-54.png"
+                                        alt="" class="position-absolute whatsapp-logo" height="22px" width="22px" />
+                                </div>
+                            </div>
+                            <div class="signup d-flex align-items-center justify-content-center">
+                                <div class="d-inline me-1">Don't have an account?</div>
+                                <a href="#" class="text-decoration-none"> Sign up </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Page Footer -->
+                    <div class="d-flex align-items-center justify-content-center page-footer">
+                        Or, login with
+                    </div>
+                    <div class="d-flex justify-content-center mb-4 gf-icon">
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22px" height="22px">
+                                <path fill="#4280EF"
+                                    d="M42.462 24.212a23.57 23.57 0 0 0-.329-3.817h-17.77v7.264h10.178a8.562 8.562 0 0 1-3.775 5.705l6.073 4.72c3.57-3.325 5.623-8.168 5.623-13.872">
+                                </path>
+                                <path fill="#34A353"
+                                    d="M24.365 42.597c5.09 0 9.357-1.683 12.476-4.556l-6.074-4.678c-1.682 1.149-3.857 1.806-6.402 1.806-4.924 0-9.07-3.324-10.588-7.757L7.54 32.214a18.818 18.818 0 0 0 16.825 10.383">
+                                </path>
+                                <path fill="#F6B704"
+                                    d="M13.777 27.371c-.78-2.339-.78-4.883 0-7.223l-6.238-4.842c-2.667 5.335-2.667 11.614 0 16.908z">
+                                </path>
+                                <path fill="#E54335"
+                                    d="M24.365 12.393a10.277 10.277 0 0 1 7.223 2.832l5.376-5.418c-3.406-3.2-7.92-4.924-12.599-4.883A18.818 18.818 0 0 0 7.54 15.307l6.237 4.842c1.519-4.473 5.664-7.756 10.588-7.756">
+                                </path>
+                            </svg>
+                            <span class="google">Google</span>
+                        </div>
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="22px" height="22px">
+                                <path fill="#1877F2"
+                                    d="M47.385 24.143C47.385 11.149 36.915.615 24 .615 11.085.615.615 11.15.615 24.143c0 11.743 8.552 21.477 19.731 23.242V30.944H14.41v-6.801h5.937V18.96c0-5.897 3.491-9.154 8.833-9.154 2.559 0 5.235.46 5.235.46v5.79h-2.95c-2.904 0-3.81 1.813-3.81 3.674v4.413h6.485l-1.036 6.8h-5.45v16.442c11.18-1.765 19.732-11.498 19.732-23.242">
+                                </path>
+                            </svg>
+                            <span class="facebook">Facebook</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/api.js"></script>
     <script src="./js/login.js"></script>
     <script src="./js/auth.js"></script>
+
+    <script>
+        // When the modal is shown
+        document.getElementById('loginModal').addEventListener('show.bs.modal', function () {
+            document.body.classList.add('modal-open');
+        });
+
+        // When the modal is hidden
+        document.getElementById('loginModal').addEventListener('hidden.bs.modal', function () {
+            document.body.classList.remove('modal-open');
+        });
+    </script>
+
 </body>
 
 </html>

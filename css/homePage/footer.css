@@ -5,7 +5,7 @@
     text-decoration: none !important;
     font-size: 0.75rem;
     font-weight: 200;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     color: #0f136d;
     line-height: 1.0625rem;
     margin-right: 8.125rem !important;
@@ -21,7 +21,7 @@
     text-decoration: none !important;
     font-size: 0.75rem;
     font-weight: 200;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     color: #0f136d;
     line-height: 1.0625rem;
     margin-right: 5rem !important;
@@ -29,7 +29,7 @@
 
 .footer div {
     color: #0f136d;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 2.1875rem;
@@ -54,7 +54,7 @@
 
 .m-tb-5 {
     margin: 0.3125rem 0 !important;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     color: #2a2a2a;
     font-size: 1rem;
     font-weight: 500;
@@ -64,7 +64,7 @@
 .m-lf-15 {
     margin: 0 0.8125rem 0 0.3125rem !important;
     text-decoration: none !important;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     font-size: 0.875rem;
     color: #888;
 }
@@ -79,7 +79,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 2.2em;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
 }
 
 .me-7 {
@@ -88,7 +88,7 @@
 
 .daraz-logo-footer {
     color: #606060;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     float: right;
     font-size: 0.875rem;
     font-weight: 200;

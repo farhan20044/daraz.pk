@@ -1,16 +1,26 @@
 @import url("../font.css");
 
 .modal-content {
-    height: 27.813rem !important;
-    width: 27.813rem !important;
+    height: 27.875rem !important;
+    width: 27.81rem !important;
+    
 }
+
+.input{
+    border: 2px grey solid !important ;
+}
+
+body.modal-open {
+    overflow: hidden !important;
+}
+
 
 .nav-link {
     all: unset !important;
     width: 11.5rem !important;
     height: 1.244rem !important;
     font-size: 1rem !important;
-    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: "NotoSans-Regular", sans-serif;
     font-weight: 500 !important;
     color: #858b9c !important;
 }
@@ -33,7 +43,7 @@
 
 .page-footer {
     font-size: 0.875rem !important;
-    font-family: 'noto sans', sans-serif !important;
+    font-family: "NatoSans-Regular", sans-serif;
     color: #858b9c !important;
     line-height: 1.2 !important;
     margin-top: 2.563rem !important;
